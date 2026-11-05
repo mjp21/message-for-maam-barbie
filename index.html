@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fbf5f1">
+<title>With Gratitude | Ma'am Barbie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="petals" aria-hidden="true"></div>
+  <audio id="backgroundMusic" src="MUSIC/BG.mp3" loop preload="none"></audio>
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Play background music" aria-pressed="false">
+    <span class="music-icon" aria-hidden="true">♫</span>
+    <span class="music-label">Play music</span>
+  </button>
+
+<header class="header">
+  <a class="brand" href="#home"><img src="pictures/logo.jpg" alt="" onerror="this.hidden=true"> With <i>Gratitude</i></a>
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav class="nav"><a href="#home">Home</a><a href="#message">My Message</a><a href="#memories">Memories</a><a href="#thankyou">Thank You</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-copy reveal">
+  <p class="eyebrow">A SPECIAL MESSAGE FOR MA'AM BARBIE</p>
+  <h1>Thank you for<br>helping me <em>bloom.</em></h1>
+  <p class="intro">A heartfelt expression of gratitude for accepting me as a student taking education units and giving me the opportunity to learn, experience, and grow.</p>
+  <a class="button" href="#message">Read my message <span>→</span></a>
+  <p class="small-note">A little message, straight from the heart <span>✿</span></p>
+ </div>
+ <div class="hero-art reveal">
+  <div class="halo"></div>
+  <div class="photo-frame"><img src="pictures/maam barbie.jpg" alt="Ma'am Barbie" onerror="this.onerror=null;this.src='pictures/maam barbie1.jpg'">
+   <div class="photo-caption"><span>For Ma'am Barbie</span><small>With love and appreciation</small></div>
+  </div>
+  <span class="sparkle s1">✧</span><span class="sparkle s2">✿</span><span class="sparkle s3">✦</span>
+ </div>
+</section>
+<section class="message-section" id="message">
+ <div class="section-heading reveal"><p class="eyebrow">WORDS FROM THE HEART</p><h2>A letter of <em>appreciation</em></h2><p>Some opportunities become meaningful because of the people who welcome us and help us learn.</p></div>
+ <div class="envelope-area reveal">
+  <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open appreciation letter">
+   <div class="envelope-back"></div><div class="letter-preview"><span>Dear Ma'am Barbie,</span><small>A message for you...</small></div>
+   <div class="envelope-front"></div><div class="envelope-flap"></div><div class="seal">✿</div>
+  </div>
+  <p class="envelope-hint" id="envelopeHint">Click the envelope to open your letter</p>
+ </div>
+ <article class="letter" id="letter" aria-hidden="true">
+  <button class="skip-typing" id="skipTyping" type="button" hidden>Show full letter</button>
+  <span class="letter-flower">✿</span><p class="letter-date">A message of appreciation</p>
+  <h3>Dear Ma'am Barbie,</h3>
+  <p>Greetings of Peace and Joy!</p>
+  <p>As I complete my Field Study 2 experience, I want to sincerely thank you for accepting me and giving me the opportunity to experience and learn more about the world of teaching. I am truly grateful that I became part of this experience because it gave me a chance to see things that I cannot fully learn from books and discussions alone.</p>
+  <p>Thank you for your kindness, patience, understanding, and for making me feel welcome. I may not have learned everything yet, but every experience, lesson, and piece of advice I received from you became meaningful to me. This journey helped me realize that becoming a teacher is not always easy, but it is something worth pursuing. I will always appreciate the opportunity you gave me and the memories I gained throughout this experience.</p>
+  <p>One lesson from you that I will always remember is that being a good teacher is not only about knowing the lesson or being able to explain it well. It is also about having patience, understanding your students, and knowing how to handle different situations inside the classroom. I learned that every student is different, and as a teacher, we must learn how to adjust, guide, and encourage them. I also realized that a teacher's attitude and actions can make a big difference in a student's learning experience.</p>
+  <p>Thank you for accepting me as your student taking education units and for allowing me to become part of your teaching environment. Thank you for sharing your knowledge, experiences, and advice with me. I also appreciate your time, kindness, and willingness to guide me. I know that you have your own responsibilities and things to accomplish, but you still gave me the opportunity to learn from you. I will always be grateful for that.</p>
+  <p>As I continue my journey toward becoming a teacher, I will carry all the lessons and experiences I gained from this opportunity. I know that I still have a lot to learn and improve, especially when it comes to handling students, building my confidence, and managing a classroom. I will continue to learn, practice, and develop myself so that someday I can become a teacher who is not only knowledgeable but also patient, understanding, and approachable. I hope that someday I can inspire my students the same way my teachers and mentors have inspired me.</p>
+  <p>One thing I would also like you to know about your teaching is that your efforts and the way you guide your students can make a real difference. I hope you never get tired of improving your teaching, making your lessons more meaningful, and finding new ways to inspire your students. May you always keep the passion, patience, and dedication that make you a teacher who leaves a positive impact. Please remember that even the simple things you do every day can make a difference in someone's life. You have inspired me, and I hope you continue to inspire many more students and future educators.</p>
+  <p>Thank you once again, Ma'am Barbie, for being part of my learning journey. I will always treasure this opportunity and the lessons I have gained from you.</p>
+  <p class="closing">With sincere gratitude and appreciation,</p>
+  <p class="signature">Mark John Paul Villacorta</p><p class="signoff-role">UNIT EARNER</p>
+  <div class="letter-footer">✿ &nbsp; THANK YOU FOR BEING PART OF MY JOURNEY &nbsp; ✿</div>
+</article>
+ <button class="button button-outline" id="closeLetter" hidden>Close letter ↺</button>
+</section>
+<section class="memories-section" id="memories">
+ <div class="section-heading reveal"><p class="eyebrow">MOMENTS TO REMEMBER</p><h2>Memories I will <em>treasure.</em></h2><p>Every picture holds a moment, and every moment becomes part of a meaningful experience.</p></div>
+ <div class="gallery">
+  <figure class="memory-card reveal"><img src="pictures/1.jpg" alt="Field Study memory one"><figcaption>A meaningful experience</figcaption></figure>
+  <figure class="memory-card tilted reveal"><img src="pictures/2.jpg" alt="Field Study memory two"><figcaption>Learning along the way</figcaption></figure>
+  <figure class="memory-card reveal"><img src="pictures/3.jpg" alt="Field Study memory three"><figcaption>Moments worth keeping</figcaption></figure>
+ </div>
+ <p class="gallery-note">These memories remind me how grateful I am for this opportunity.</p>
+</section>
+<section class="final-section" id="thankyou">
+ <span class="final-flower">✿</span><p class="eyebrow">UNTIL THE NEXT CHAPTER</p><h2>Thank you, Ma'am Barbie.</h2>
+ <p>Your kindness, guidance, and willingness to accept me as an education-unit student mean so much. I am truly grateful for this opportunity and for everything I have learned.</p>
+ <div class="final-script">With heartfelt appreciation</div><p class="final-name">Mark John Paul Villacorta<br><span>UNIT EARNER</span></p><a class="button" href="#home">Back to the beginning ↑</a>
+</section>
+</main>
+<footer class="footer"><span>Made with gratitude ♡</span><span>Education Units · 2026</span></footer>
+<script src="script.js"></script>
+</body></html>
